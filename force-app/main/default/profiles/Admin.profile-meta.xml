@@ -19,6 +19,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.LeadTextField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Travel_Approval__c.Department__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -53,13 +58,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Travel_Approval__c-Travel Approval Layout</layout>
+        <layout>Department__c-Department Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Expense_Item__c-Expense Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Department__c-Department Layout</layout>
+        <layout>Lead-Formato de candidatos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Travel_Approval__c-Travel Approval Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -82,7 +90,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Expense_Item__c</object>
+        <object>Department__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -91,7 +99,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Department__c</object>
+        <object>Expense_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
@@ -118,6 +126,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
