@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last schema update operation timestamp that performed by you. --></help>
+    <label><!-- Last Schema Update Date --></label>
+    <name>copadometrics__Last_Schema_Update_Date__c</name>
+</CustomFieldTranslation>
