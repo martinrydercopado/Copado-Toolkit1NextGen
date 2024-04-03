@@ -59,6 +59,7 @@
             <sortBy>RowLabelAscending</sortBy>
         </components>
     </middleSection>
+    <owner>mryder+toolkit@copado.com</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>

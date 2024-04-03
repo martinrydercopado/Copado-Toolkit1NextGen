@@ -185,6 +185,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Key metrics for tracking performance of DevOps</description>
     <isGridLayout>true</isGridLayout>
+    <owner>mryder+toolkit@copado.com</owner>
     <runningUser>mryder+toolkit@copado.com</runningUser>
     <textColor>#000000</textColor>
     <title>DevOps Management Dashboard</title>
