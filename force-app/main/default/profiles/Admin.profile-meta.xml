@@ -26,6 +26,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>May3Object__c.May3Object_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>May3Object__c.May3Object_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>May3Object__c.May3Object_Text__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Oct23_Object__c.Oct23_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -71,6 +86,9 @@
         <layout>Expense_Item__c-Expense Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>May3Object__c-May3Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Oct23_Object__c-Oct23 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -98,6 +116,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Expense_Item__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>May3Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
