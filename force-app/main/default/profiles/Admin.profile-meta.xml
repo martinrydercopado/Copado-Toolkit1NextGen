@@ -72,6 +72,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.QueueText2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Travel_Approval__c.Department__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -106,31 +111,31 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>AprilObject__c-AprilObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Formato de contactos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Department__c-Department Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Expense_Item__c-Expense Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Formato de candidatos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>May3Object__c-May3Object Layout</layout>
+        <layout>SFObjectMay24__c-SFObjectMay24 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Oct23_Object__c-Oct23 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SFObjectMay24__c-SFObjectMay24 Layout</layout>
+        <layout>Contact-Formato de contactos</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Travel_Approval__c-Travel Approval Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AprilObject__c-AprilObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>May3Object__c-May3Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Expense_Item__c-Expense Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Department__c-Department Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Formato de candidatos</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -144,7 +149,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>SFObjectMay24__c</object>
+        <object>Oct23_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -153,7 +158,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Oct23_Object__c</object>
+        <object>SFObjectMay24__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -180,7 +185,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>May3Object__c</object>
+        <object>Department__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -198,7 +203,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Department__c</object>
+        <object>May3Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
