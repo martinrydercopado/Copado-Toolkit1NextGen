@@ -46,6 +46,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.QueueText1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Travel_Approval__c.Department__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -80,19 +85,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Department__c-Department Layout</layout>
+        <layout>Oct23_Object__c-Oct23 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Expense_Item__c-Expense Item Layout</layout>
+        <layout>Travel_Approval__c-Travel Approval Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>May3Object__c-May3Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Oct23_Object__c-Oct23 Object Layout</layout>
+        <layout>Expense_Item__c-Expense Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Travel_Approval__c-Travel Approval Layout</layout>
+        <layout>Department__c-Department Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -106,7 +111,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Department__c</object>
+        <object>Oct23_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -115,7 +120,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Expense_Item__c</object>
+        <object>Travel_Approval__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -133,7 +138,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Oct23_Object__c</object>
+        <object>Expense_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -142,7 +147,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Travel_Approval__c</object>
+        <object>Department__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
