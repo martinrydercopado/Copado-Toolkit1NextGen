@@ -3,10 +3,21 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "force-app/main/default/profiles",
+      "package": "TestUnlockedPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "Toolkit",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "57.0"
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "TestUnlockedPackage": "0HoHp0000010y5mKAA"
+  }
 }
